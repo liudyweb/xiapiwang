@@ -1,0 +1,470 @@
+/*fontnav*/
+#fontnav{
+	width: 1200px;
+	height: 55px;
+	margin: 0 auto;
+	line-height: 55px;
+	font-size: 14px;
+	text-align: left;
+	overflow: hidden;
+}
+/*commodity 商品详情*/
+#commodity{
+	width: 1200px;
+	height: 626px;
+	background-color: #fff;
+	margin: 0 auto;
+}
+.img_com{
+	width: 450px;
+	height: 596px;
+	padding: 15px;
+	float: left;
+	position: relative;
+}
+.img_com>.img_com_icon{
+	width: 450px;
+	height: 450px;
+	cursor: pointer;
+	position: relative;
+}
+.img_com>.img_com_icon>.com_mask{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	background-color: rgba(0,0,0,0.5);
+	display: none;
+}
+.img_com_magn{
+	position: absolute;
+	background-color: #000000;
+	top: 15px;
+	right: -435px;
+	width: 450px;
+	height: 450px;
+	background-repeat: no-repeat;
+	background-size: 1054px 1054px;
+	z-index: 999;
+	display: none;
+}
+
+.img_com>.img_com_nav{
+	width: 458px;
+	height: 96px;
+	margin: 5px -5px;
+	position: relative;
+	overflow: hidden;
+}
+.img_com>.img_com_nav>.img_com_move{
+	height: 96px;
+	cursor: pointer;
+	transition: all 2s;
+}
+.img_com>.img_com_nav>.img_com_move>.img_com_nav_icon{
+	width: 82px;
+	height: 82px;
+	float: left;
+	margin: 6px 4px;
+}
+.movnavf52{border: 2px solid #ff5722;}
+.img_com .img_com_ctrl>span{
+	width: 20px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 22px;
+	position: absolute;
+	top: 26px;
+	background-color: rgba(0,0,0,0.2);
+	color: #fff;
+	cursor: pointer;
+}
+.img_com .img_com_ctrl>.next{right: 0px;}
+.img_com .img_com_ctrl>.prev{left: 0px;}
+.img_com>.img_com_share{
+	width: 246px;
+	height: 25px;
+	margin-top: 20px;
+	float: left;
+}
+.img_com>.img_com_share>i{float: left;}
+.img_com>.img_com_share>span{
+	width: 25px;
+	height: 25px;
+	float: left;
+	margin: 0 5px;
+	cursor: pointer;
+}
+.img_com>.img_com_share>span:nth-child(2){
+	background-image: url("https://cdngarenanow-a.akamaihd.net/shopee/shopee-pcmall-live-tw/assets/cf2cbea564f70cc2c1e293c629729b6a.png");
+	background-position: 0 -25px;
+	background-size: 25px 125px;
+}
+.img_com>.img_com_share>span:nth-child(3){
+	background-image: url("https://cdngarenanow-a.akamaihd.net/shopee/shopee-pcmall-live-tw/assets/cf2cbea564f70cc2c1e293c629729b6a.png");
+	background-position: 0 0;
+	background-size: 25px 125px;
+}
+.img_com>.img_com_share>span:nth-child(4){
+	background-image: url("https://cdngarenanow-a.akamaihd.net/shopee/shopee-pcmall-live-tw/assets/cf2cbea564f70cc2c1e293c629729b6a.png");
+	background-position: 0 -50px;
+	background-size: 25px 125px;
+}
+.img_com>.img_com_share>span:nth-child(5){
+	background-image: url("https://cdngarenanow-a.akamaihd.net/shopee/shopee-pcmall-live-tw/assets/cf2cbea564f70cc2c1e293c629729b6a.png");
+	background-position: 0 -75px;
+	background-size: 25px 125px;
+}
+.img_com>.img_com_share>span:nth-child(6){
+	background-image: url("https://cdngarenanow-a.akamaihd.net/shopee/shopee-pcmall-live-tw/assets/cf2cbea564f70cc2c1e293c629729b6a.png");
+	background-position: 0 -100px;
+	background-size: 25px 125px;
+}
+.img_com_like{
+	cursor: pointer;
+	width: 203px;
+	height: 20px;
+	float: left;
+	margin-top: 20px;
+	border-left: 1px solid rgba(0,0,0,.09);;
+	text-align: center;
+}
+.img_com_like>img{vertical-align: middle;}
+
+.spec_com{
+	width: 665px;
+	height: 606px;
+	padding: 20px 35px 0px 20px;
+	float: right;
+}
+.spec_com>.spec_com_discuss{
+	width: 100%;
+	height: 28px;
+	color: #767676;
+	margin-top: 18px;
+}
+.spec_com>.spec_com_discuss>div{
+	float: left;
+	padding: 0px 15px;
+	border-right: 1px solid rgba(0,0,0,0.14);
+}
+.spec_com_discuss>div>*{
+	margin-right: 5px;
+	text-decoration: underline;
+	color: #000;
+	float: left;
+}
+.spec_com_discuss>.spec_star>div{
+	width: 22px;
+	height: 21px;
+	color: #ff5722;
+	border-bottom-color: #ff5722;
+}
+.spec_com>.spec_com_discuss>.spec_com_salse{
+	border-right: 0;
+}
+.spec_com_price{
+	width: 625px;
+	height: 36px;
+	line-height: 36px;
+	background: skyblue;
+	padding: 15px 20px;
+	background-color: #fafafa;
+}
+.spec_com_price>.spec_com_oldprice{
+	text-decoration: line-through;
+	font-size: 16px;
+	color: #929292;
+	margin-right: 10px;
+	float: left;
+}
+.spec_com_price>.spec_com_nowprice{
+	float: left;
+	font-size: 28px;
+	color: #ff5722;
+}
+.spec_com_price>.spec_com_discount{
+	margin:10px 0 0 15px;
+	float: left;
+	font-size: 12px;
+	color: #fff;
+	background: #ff5722;
+	border-radius: 2px;
+	padding: 2px 4px;
+	font-weight: 600;
+	line-height: 1;
+}
+.spec_com_ship{
+	width: 625px;
+	height: 75px;
+	margin: 26px auto 25px;
+}
+.spec_com_ship>div{float: left;}
+.spec_com_title{
+	width: 110px;
+	height: 30px;
+	color: #757575;
+	float: left;
+}
+.spec_com_ship .spec_com_ship_top{width: 515px;margin-bottom: 10px;color: #222;font-size: 14px;}
+.spec_com_ship .spec_com_ship_top img{vertical-align: middle;}
+.spec_com_ship .spec_com_ship_bottom{
+	width: 515px;
+}
+.spec_com_ship .spec_com_ship_bottom img{vertical-align: middle;}
+.spec_com_ship .spec_com_ship_bottom>*{float: left;}
+.spec_com_ship .spec_com_ship_bottom div:nth-child(2){
+	width: 110px;
+	color: #636363;
+	margin-right: 10px;
+}
+.spec_com_ship .spec_com_ship_bottom div:nth-child(3){color: #222;}
+.spec_com_model{
+	width: 625px;
+	/*height: 84px;*/
+	margin: 0 auto;
+}
+.spec_com_model>ul{
+	width: 515px;
+	float: left;
+}
+.spec_com_model>ul>li{
+	float: left;
+	margin: 0 8px 8px 0;
+	padding: 6px 20px;
+	cursor: pointer;
+	border-radius: 2px;
+	border: 1px solid rgba(0,0,0,0.09);
+	position: relative;
+	z-index: 10;
+}
+.spec_com_model>ul>.model_active{border: 1px solid #ff5722;color: #ff5722;}
+.spec_com_model>ul>.model_active:after{
+	content: "√";
+	color: #fff;
+	position: absolute;
+	width: 8px;
+	height: 13px;
+	bottom: 0;
+	right: 0;
+	border-radius: 100% 0% 0% 0%;
+	background: #ff5722;
+	font-size: 10px;
+}
+.spec_com_model>ul>li:hover{
+	color: #ff5722;
+	border-color: #ff5722;
+}
+.spec_com_number{
+	width: 625px;
+	height: 32px;
+	margin: 15px auto 0;
+	font-size: 14px;
+}
+.spec_com_number>div>input{float: left;}
+.spec_com_number input[type="button"]{
+	width: 32px;
+	height: 32px;
+	color: rgba(0,0,0,.8);
+	border: 1px solid rgba(0,0,0,.09);
+	border-radius: 2px;
+	cursor: pointer;
+}
+.spec_com_number input[type="text"]{
+	width: 50px;
+	height: 32px;
+	color: rgba(0,0,0,.8);
+	border: 1px solid rgba(0,0,0,.09);
+	cursor: pointer;
+	box-sizing: border-box;
+	text-align: center;
+}
+.spec_com_number input[value="+"]{margin-right: 15px;}
+.spec_com_number>div{
+	color: #757575;
+	line-height: 32px;
+}
+.spec_com_deal{
+	width: 645px;
+	height: 48px;
+	margin: 15px auto 0px;
+	font-size: 14px;
+}
+.spec_com_deal>button{
+	width: 180px;
+	height: 48px;
+	color: #ff5722;
+	cursor: pointer;
+}
+.spec_com_deal>.spec_com_deal_join{
+	background: rgba(255,87,34,.1);
+	border: 1px solid #ff5722;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.03)
+}
+.spec_com_deal>.spec_com_deal_join:hover{
+	background: rgba(255,87,34,.15);
+}
+.spec_com_deal>.spec_com_deal_buy{
+	background: #ff5722;
+	color: #fff;
+	border: 0;
+}
+.spec_com_deal>.spec_com_deal_buy:hover{
+	background: #ff6635;
+}
+.spec_com_base{
+	width: 625px;
+	height: 21px;
+	padding: 25px 20px;
+	margin-top: 30px;
+	border-top: 1px solid rgba(0,0,0,0.05);
+	cursor: pointer;
+}
+.spec_com_base>img{width: 20px;height: 20px;}
+.spec_com_base>p{
+	display: inline-block;
+	margin: 0 20px 0 5px;
+	color: #222;
+	font-size: 14px;
+}
+.spec_com_base>span{
+	color: rgba(0,0,0,.54);
+	font-size: 14px;
+	line-height: 12px;
+}
+/*message 信息*/
+#message{
+	width: 1150px;
+	height: 80px;
+	margin: 20px auto 0px;
+	padding: 25px;
+	background: #fff;
+}
+#message>div{float: left;}
+.mes_icon{
+	width: 80px;
+	height: 80px;
+	margin-right: 20px;
+}
+.mes_icon>img{
+	width: 80px;
+	height: 80px;
+}
+.mes_boss{
+	width: 339px;
+	height: 80px;
+	border-right: 1px solid rgba(0,0,0,0.05);
+}
+.mes_boss>div{
+	font-size: 14px;
+	width: 339px;
+	height: 17px;
+	line-height: 17px;
+}
+.mes_boss>.boss_name{height: 19px;font-size:16px;color: rgba(0,0,0,.87);}
+.mes_boss>.boss_onlin{color:rgba(0,0,0,0.54);}
+.mes_boss>button:nth-child(3){
+	height: 34px;
+	width: 79px;
+	margin-top: 8px;
+	color: #00bfa5;
+	background: url(../img/combtnbg1.png) no-repeat;
+	border: 1px solid #00bfa5;
+	cursor: pointer;
+}
+.mes_boss>button:nth-child(4){
+	width: 107px;
+	height: 34px;
+	border: 1px solid rgba(0,0,0,0.09);
+	background: url(../img/combtnbg2.png) no-repeat;
+	cursor: pointer;
+}
+.mes_con{
+	width: 550px;
+	height: 80px;
+	padding-left: 55px;
+}
+.mes_con_t{
+	width: 140px;
+	height: 26px;
+	margin: 7px 0;
+	font-size: 14px;
+	line-height: 26px;
+	float: left;
+}
+.mes_con_t>i{color: rgba(0,0,0,.4);margin-right: 5px;}
+.mes_con_t>span{
+	cursor: pointer;
+	color:#ff5722;
+}
+/*details--详情--------------------------*/
+#details{
+	width: 1180px;
+	height: 1480px;
+	margin: 20px auto 0;
+	padding: 10px;
+	background: #fff;
+}
+.details_spec{
+	width: 1150px;
+	padding: 15px 15px 0;
+}
+.details_title{
+	width:1150px;
+	height: 50px;
+	line-height: 50px;
+	background: rgba(0,0,0,0.02);
+	color: rgba(0,0,0,0.87);
+	font-size: 18px;
+	text-indent: 14px;
+}
+.details_spec_con{
+	width: 1120px;
+	height: 140px;
+	margin: 15px 15px 0;
+	overflow: hidden;
+}
+.details_spec_con>.details_spec_item{
+	width: 1120px;
+	height: 17px;
+	line-height: 17px;
+	margin: 9px 0;
+	font-size: 14px;
+}
+.details_spec_item>div{float: left;}
+.details_spec_item_left{
+	width: 100px;
+	height: 17px;
+	color: rgba(0,0,0,.4);
+	margin-right: 40px;
+}
+.details_spec_item_right{color: rgba(0,0,0,0.8);}
+.details_spec_item_right>a{color: #05a;}
+/**/
+.details_part{
+	width: 1150px;
+	height: 1190px;
+	padding: 15px;
+}
+.details_part_con{
+	width: 1120px;
+	height: 1110px;
+	margin: 5px 15px 15px;
+	color: rgba(0,0,0,.8);
+	font-size: 14px;
+	/*white-space: pre-wrap;*/
+}
+.details_part_con>div>span{
+	line-height: 60px;
+	display: block;
+}
+.details_part_con>div a{margin-right:10px;color: #05a;line-height: 30px;}
+.details_part_con>.details_part_top{
+	
+}
+.details_part_con>.details_part_center{
+	
+}
+.details_part_con>.details_part_bottom{
+	max-width: 250px;
+}
